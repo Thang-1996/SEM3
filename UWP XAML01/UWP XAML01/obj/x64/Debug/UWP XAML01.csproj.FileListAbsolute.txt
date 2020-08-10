@@ -1,0 +1,50 @@
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\App.xbf
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\MainPage.xbf
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\UWP XAML01.xr.xml
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\UWP XAML01.exe
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\UWP XAML01.pdb
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\resources.pri
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\AppxManifest.xml
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\Core\UWP XAML01.exe
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\UWP XAML01.build.appxrecipe
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\System.Runtime.dll
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\UWP XAML01.csprojAssemblyReference.cache
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\App.g.i.cs
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\App.g.cs
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\MainPage.g.cs
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\App.xaml
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\MainPage.xaml
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\App.xbf
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\MainPage.xbf
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\UWP XAML01.csproj.CoreCompileInputs.cache
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\UWP XAML01.csproj.CopyComplete
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\UWP XAML01.exe
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\UWP XAML01.pdb
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\priconfig.xml
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\resources.resfiles
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\pri.resfiles
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\qualifiers.txt
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637112354540000000.json
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\bin\x64\Debug\StackPanel.xbf
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\StackPanel.g.i.cs
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\StackPanel.g.cs
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\StackPanel.xaml
+C:\Users\minht\source\repos\SEM3\UWP XAML01\UWP XAML01\obj\x64\Debug\StackPanel.xbf
