@@ -8,7 +8,20 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+	<Grid Margin="50">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="*"/>
 
-    </Grid>
+		</Grid.ColumnDefinitions>
+		<Rectangle Fill="Blue" Width="220" Height="220" Grid.Row="1" Grid.Column="0"/>
+		<Ellipse Fill="Red" Width="175" Height="175" Grid.Row="1" Grid.Column="0"/>
+		<Polygon Fill="Green" Points="0,0 275,0 275,200" StrokeThickness="2" Grid.Row="1" Grid.Column="1"/>
+	</Grid>
 </Page>

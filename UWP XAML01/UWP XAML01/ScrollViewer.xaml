@@ -8,7 +8,16 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
-    </Grid>
+	<ScrollViewer Margin="50">
+		<StackPanel Margin="50"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top">
+			<Rectangle Fill="Blue" Width="220" Height="220"/>
+			<Ellipse Fill="red" Width="175px" Height="175px"/>
+			<Polygon Fill="Green" Points="0,0 275,0 275,200"/>
+			<Rectangle Fill="Blue" Width="220" Height="220"/>
+			<Ellipse Fill="red" Width="175px" Height="175px"/>
+			<Polygon Fill="Green" Points="0,0 275,0 275,200"/>
+		</StackPanel>
+	</ScrollViewer>
 </Page>

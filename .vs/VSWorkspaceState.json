@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\UniversalDay1",
+    "\\UniversalDay1\\UniversalDay1",
+    "\\UWP XAML01",
+    "\\UWP XAML01\\UWP XAML01"
   ],
+  "SelectedNode": "\\UWP XAML01\\UWP XAML01\\ScrollViewer.xaml",
   "PreviewInSolutionExplorer": false
 }
