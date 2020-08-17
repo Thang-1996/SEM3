@@ -1,0 +1,58 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="ObservableCollectionExample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ObservableCollectionExample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:ObservableCollectionExample.Models"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource AppBarItemBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="FirstName:" VerticalAlignment="Center" Margin="10"/>
+            <TextBox x:ConnectionId='8' Grid.Column="1" Name="FirstNameTextBox" Margin="10"/>
+            <TextBlock Grid.Row="1" Text="LastName:" VerticalAlignment="Center" Margin="10"/>
+            <TextBox x:ConnectionId='9' Grid.Row="1" Grid.Column="1" Name="LastNameTextBox" Margin="10"/>
+            <TextBlock Grid.Row="2" Text="Avatar:" VerticalAlignment="Center" Margin="10"/>
+            <ComboBox x:ConnectionId='10' Name="AvatarComboBox" Height="50" Width="100" Grid.Row="2" Grid.Column="1"                              Margin="10">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate                       >
+                        <Image x:ConnectionId='13'                            Width="40" Height="40"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+
+            </ComboBox>
+            <Button x:ConnectionId='11' Grid.Row="3" Grid.Column="1" Name="NewContactButton"                                Content="Add" Margin="10"></Button>
+            </Grid>
+            <GridView x:ConnectionId='2' Grid.Row="2"                                 Margin="20">
+                <GridView.ItemTemplate>
+                    <DataTemplate                          >
+                        <StackPanel x:ConnectionId='4' HorizontalAlignment="Center" Margin="10">
+                            <Image x:ConnectionId='5'                              Width="100" Height="100"/>
+                            <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+                                <TextBlock x:ConnectionId='6'                           Margin="0,0,5,0"/>
+                                <TextBlock x:ConnectionId='7'                         />
+                            </StackPanel>
+
+                        </StackPanel>
+                    </DataTemplate>
+                </GridView.ItemTemplate>
+            </GridView>
+        </Grid>
+</Page>
+
