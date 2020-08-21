@@ -1,1 +1,1 @@
-C:\Users\minht\source\repos\Get Weather Location\Get Weather Location.csproj;x86
+C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Get Weather Location.csproj;x86

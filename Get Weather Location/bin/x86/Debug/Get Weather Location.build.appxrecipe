@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>bc0a0af1-0a79-4ac4-b4bc-2724d45353ac</PackageIdentityName>
     <PackageIdentityPublisher>CN=minht</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\minht\source\repos\Get Weather Location\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\Get Weather Location.exe">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\Get Weather Location.exe">
       <PackagePath>entrypoint\Get Weather Location.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,106 +34,106 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\01d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\01d.png">
       <PackagePath>Assets\Weather\01d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\01n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\01n.png">
       <PackagePath>Assets\Weather\01n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\02d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\02d.png">
       <PackagePath>Assets\Weather\02d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\02n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\02n.png">
       <PackagePath>Assets\Weather\02n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\03d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\03d.png">
       <PackagePath>Assets\Weather\03d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\03n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\03n.png">
       <PackagePath>Assets\Weather\03n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\04d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\04d.png">
       <PackagePath>Assets\Weather\04d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\04n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\04n.png">
       <PackagePath>Assets\Weather\04n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\09d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\09d.png">
       <PackagePath>Assets\Weather\09d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\09n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\09n.png">
       <PackagePath>Assets\Weather\09n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\10d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\10d.png">
       <PackagePath>Assets\Weather\10d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\10n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\10n.png">
       <PackagePath>Assets\Weather\10n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\11d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\11d.png">
       <PackagePath>Assets\Weather\11d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\11n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\11n.png">
       <PackagePath>Assets\Weather\11n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\13d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\13d.png">
       <PackagePath>Assets\Weather\13d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\13n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\13n.png">
       <PackagePath>Assets\Weather\13n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\50d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\50d.png">
       <PackagePath>Assets\Weather\50d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\50n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\50n.png">
       <PackagePath>Assets\Weather\50n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\Get Weather Location.xr.xml">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\Get Weather Location.xr.xml">
       <PackagePath>Get Weather Location.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\Core\Get Weather Location.exe">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\Core\Get Weather Location.exe">
       <PackagePath>Get Weather Location.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

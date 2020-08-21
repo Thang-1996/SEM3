@@ -1,0 +1,21 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Get_Weather_Location.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Get_Weather_Location"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                        >
+
+    <StackPanel Background="Brown">
+        <StackPanel VerticalAlignment="Center">
+            <Image x:ConnectionId='2' Name="ResultImage" Width="200" Height="200" HorizontalAlignment="Center"/>
+                <TextBlock x:ConnectionId='3' Name="TempTextBlock" FontSize="53" Foreground="White" HorizontalAlignment="Center"/>
+                <TextBlock x:ConnectionId='4' Name="DescriptionTextBlock" FontSize="35" Foreground="White" HorizontalAlignment="Center"/>
+                <TextBlock x:ConnectionId='5' Name="LocationTextBlock" FontSize="24" Foreground="White" HorizontalAlignment="Center" TextWrapping="Wrap"/>
+        </StackPanel>
+    </StackPanel>
+</Page>
+

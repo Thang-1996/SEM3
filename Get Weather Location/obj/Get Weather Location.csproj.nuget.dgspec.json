@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minht\\source\\repos\\Get Weather Location\\Get Weather Location.csproj": {}
+    "C:\\Users\\minht\\source\\repos\\Thang-1996\\SEM3\\Get Weather Location\\Get Weather Location.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minht\\source\\repos\\Get Weather Location\\Get Weather Location.csproj": {
+    "C:\\Users\\minht\\source\\repos\\Thang-1996\\SEM3\\Get Weather Location\\Get Weather Location.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minht\\source\\repos\\Get Weather Location\\Get Weather Location.csproj",
+        "projectUniqueName": "C:\\Users\\minht\\source\\repos\\Thang-1996\\SEM3\\Get Weather Location\\Get Weather Location.csproj",
         "projectName": "Get Weather Location",
-        "projectPath": "C:\\Users\\minht\\source\\repos\\Get Weather Location\\Get Weather Location.csproj",
+        "projectPath": "C:\\Users\\minht\\source\\repos\\Thang-1996\\SEM3\\Get Weather Location\\Get Weather Location.csproj",
         "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minht\\source\\repos\\Get Weather Location\\obj\\",
+        "outputPath": "C:\\Users\\minht\\source\\repos\\Thang-1996\\SEM3\\Get Weather Location\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

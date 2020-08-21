@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>bc0a0af1-0a79-4ac4-b4bc-2724d45353ac</PackageIdentityName>
     <PackageIdentityPublisher>CN=minht</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\minht\source\repos\Get Weather Location\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>EAA7812CC0BB20118DFF9DAEEDE55266C287AA5F21C2D52ACDC52F49FDDFAA36</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>7E76F21F1AD5FD207D2488AF9F15417E7DA30C4FDC88A4EF5177EECA93350A25</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>bc0a0af1-0a79-4ac4-b4bc-2724d45353ac_1.0.0.0_x86__83fsda2adyh1c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>bc0a0af1-0a79-4ac4-b4bc-2724d45353ac_83fsda2adyh1c!App</RegisteredUserModeAppID>
     <RegisteredPackageID>bc0a0af1-0a79-4ac4-b4bc-2724d45353ac</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T05:05:49.482</Modified>
+      <Modified>2020-08-21T04:44:19.475</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\Get Weather Location.exe">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\Get Weather Location.exe">
       <PackagePath>entrypoint\Get Weather Location.exe</PackagePath>
-      <Modified>2020-08-19T05:05:48.929</Modified>
+      <Modified>2020-08-21T04:44:18.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,139 +46,139 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\01d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\01d.png">
       <PackagePath>Assets\Weather\01d.png</PackagePath>
       <Modified>2020-08-19T04:53:08.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\01n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\01n.png">
       <PackagePath>Assets\Weather\01n.png</PackagePath>
       <Modified>2020-08-19T04:53:08.177</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\02d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\02d.png">
       <PackagePath>Assets\Weather\02d.png</PackagePath>
       <Modified>2020-08-19T04:53:08.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\02n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\02n.png">
       <PackagePath>Assets\Weather\02n.png</PackagePath>
       <Modified>2020-08-19T04:53:08.180</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\03d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\03d.png">
       <PackagePath>Assets\Weather\03d.png</PackagePath>
       <Modified>2020-08-19T04:53:08.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\03n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\03n.png">
       <PackagePath>Assets\Weather\03n.png</PackagePath>
       <Modified>2020-08-19T04:53:08.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\04d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\04d.png">
       <PackagePath>Assets\Weather\04d.png</PackagePath>
       <Modified>2020-08-19T04:53:08.184</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\04n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\04n.png">
       <PackagePath>Assets\Weather\04n.png</PackagePath>
       <Modified>2020-08-19T04:53:08.185</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\09d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\09d.png">
       <PackagePath>Assets\Weather\09d.png</PackagePath>
       <Modified>2020-08-19T04:53:08.187</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\09n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\09n.png">
       <PackagePath>Assets\Weather\09n.png</PackagePath>
       <Modified>2020-08-19T04:53:08.188</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\10d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\10d.png">
       <PackagePath>Assets\Weather\10d.png</PackagePath>
       <Modified>2020-08-19T04:53:08.189</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\10n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\10n.png">
       <PackagePath>Assets\Weather\10n.png</PackagePath>
       <Modified>2020-08-19T04:53:08.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\11d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\11d.png">
       <PackagePath>Assets\Weather\11d.png</PackagePath>
       <Modified>2020-08-19T04:53:08.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\11n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\11n.png">
       <PackagePath>Assets\Weather\11n.png</PackagePath>
       <Modified>2020-08-19T04:53:08.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\13d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\13d.png">
       <PackagePath>Assets\Weather\13d.png</PackagePath>
       <Modified>2020-08-19T04:53:08.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\13n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\13n.png">
       <PackagePath>Assets\Weather\13n.png</PackagePath>
       <Modified>2020-08-19T04:53:08.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\50d.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\50d.png">
       <PackagePath>Assets\Weather\50d.png</PackagePath>
       <Modified>2020-08-19T04:53:08.196</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Weather\50n.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Weather\50n.png">
       <PackagePath>Assets\Weather\50n.png</PackagePath>
       <Modified>2020-08-19T04:53:08.197</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-08-19T04:31:03.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\Get Weather Location.xr.xml">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\Get Weather Location.xr.xml">
       <PackagePath>Get Weather Location.xr.xml</PackagePath>
       <Modified>2020-08-19T04:54:02.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-19T05:05:48.777</Modified>
+      <Modified>2020-08-21T04:44:18.789</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-19T05:05:48.777</Modified>
+      <Modified>2020-08-21T04:44:18.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-19T05:05:49.029</Modified>
+      <Modified>2020-08-21T04:44:19.049</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\Get Weather Location\bin\x86\Debug\Core\Get Weather Location.exe">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\Get Weather Location\bin\x86\Debug\Core\Get Weather Location.exe">
       <PackagePath>Get Weather Location.exe</PackagePath>
-      <Modified>2020-08-19T05:05:49.477</Modified>
+      <Modified>2020-08-21T04:44:19.449</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

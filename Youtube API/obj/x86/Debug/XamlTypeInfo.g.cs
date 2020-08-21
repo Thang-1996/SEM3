@@ -8,22 +8,22 @@
 //------------------------------------------------------------------------------
 
 
-namespace Get_Weather_Location
+namespace Youtube_API
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
-        private global::Get_Weather_Location.Get_Weather_Location_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::Youtube_API.Youtube_API_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::Get_Weather_Location.Get_Weather_Location_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::Youtube_API.Youtube_API_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::Get_Weather_Location.Get_Weather_Location_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::Youtube_API.Youtube_API_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -61,7 +61,7 @@ namespace Get_Weather_Location
     }
 }
 
-namespace Get_Weather_Location.Get_Weather_Location_XamlTypeInfo
+namespace Youtube_API.Youtube_API_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -70,15 +70,15 @@ namespace Get_Weather_Location.Get_Weather_Location_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::Get_Weather_Location.Get_Weather_Location_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::Youtube_API.Youtube_API_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::Get_Weather_Location.Get_Weather_Location_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::Youtube_API.Youtube_API_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::Get_Weather_Location.Get_Weather_Location_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::Youtube_API.Youtube_API_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }

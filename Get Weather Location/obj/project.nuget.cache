@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RKL3mc+sNZ0Kr+XK+8FdO2bNUKEtPKyAuO4HE3s4j0uS27yJECaf90cOY/qlw8UAO2fN9MWgn8CJQfRdSVcuQQ==",
+  "dgSpecHash": "4VcrM98XJnKB1qtVSmPXizBtSGz116nVG5pBxaoArdiY35l+F363dz1kuhY50bT2jV1H8SSUX2EngXrXJjIhDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\minht\\source\\repos\\Get Weather Location\\Get Weather Location.csproj",
+  "projectFilePath": "C:\\Users\\minht\\source\\repos\\Thang-1996\\SEM3\\Get Weather Location\\Get Weather Location.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
