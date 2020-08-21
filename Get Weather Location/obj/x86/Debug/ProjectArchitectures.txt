@@ -1,0 +1,1 @@
+C:\Users\minht\source\repos\Get Weather Location\Get Weather Location.csproj;x86
