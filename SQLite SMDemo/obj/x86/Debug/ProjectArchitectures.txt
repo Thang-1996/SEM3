@@ -1,0 +1,2 @@
+C:\Users\minht\source\repos\Thang-1996\SEM3\DataAccessLibrary\DataAccessLibrary.csproj;x86
+C:\Users\minht\source\repos\Thang-1996\SEM3\SQLite SMDemo\SQLite SMDemo.csproj;x86
