@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="PaperProject.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PaperProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loaded="Page_Loaded">
+
+    <StackPanel>
+        <StackPanel.Background>
+            <ImageBrush ImageSource="https://www.pngmart.com/files/7/IPhone-PNG-Picture.png" Stretch="None"/>
+        </StackPanel.Background>
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock x:Name="DateResult" FontSize="10" Foreground="Gray" HorizontalAlignment="Center" Padding="0" Margin="0,160,220,20"/>
+            <TextBlock x:Name="TitleResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="50,0,0,10" Width="400" TextWrapping="Wrap"/>
+            <Image x:Name="ImageResult" Width="370" Height="400" HorizontalAlignment="Center" Margin="20,-90,-0,-90"/>
+            <TextBlock Name="ContentResult1" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,10,0,0" Width="380" TextWrapping="Wrap"/>
+        </StackPanel>
+    </StackPanel>
+</Page>
