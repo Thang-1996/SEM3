@@ -1,1 +1,1 @@
-C:\Users\minht\source\repos\PaperProject\PaperProject.csproj;x86
+C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\PaperProject.csproj;x86

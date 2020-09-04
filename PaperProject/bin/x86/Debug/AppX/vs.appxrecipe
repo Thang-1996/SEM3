@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6992d44a-649c-4bd7-abd6-cb1d03061c21</PackageIdentityName>
     <PackageIdentityPublisher>CN=minht</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\minht\source\repos\PaperProject\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\minht\source\repos\PaperProject\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>8E9A85CD5EBB483632665C4CF472BC81FC8FB708B5B76E810EA2DB4B68CC1B05</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6992d44a-649c-4bd7-abd6-cb1d03061c21_1.0.0.0_x86__83fsda2adyh1c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6992d44a-649c-4bd7-abd6-cb1d03061c21_83fsda2adyh1c!App</RegisteredUserModeAppID>
@@ -27,86 +27,94 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\minht\source\repos\PaperProject\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-31T03:44:04.842</Modified>
+      <Modified>2020-08-31T05:16:03.415</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\bin\x86\Debug\PaperProject.exe">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\bin\x86\Debug\PaperProject.exe">
       <PackagePath>entrypoint\PaperProject.exe</PackagePath>
-      <Modified>2020-08-31T03:44:04.290</Modified>
+      <Modified>2020-08-31T05:16:02.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T12:16:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\minht\.nuget\packages\sqlite.net-pcl\3.1.1\lib\Windows8\SQLite.Net.Platform.WinRT.dll">
+      <PackagePath>SQLite.Net.Platform.WinRT.dll</PackagePath>
+      <Modified>2015-11-06T10:18:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\minht\.nuget\packages\sqlite.net.core-pcl\3.1.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll">
+      <PackagePath>SQLite.Net.dll</PackagePath>
+      <Modified>2015-11-06T10:18:40.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-08-31T02:45:27.172</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-11T14:36:38.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\bin\x86\Debug\PaperProject.xr.xml">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\bin\x86\Debug\PaperProject.xr.xml">
       <PackagePath>PaperProject.xr.xml</PackagePath>
-      <Modified>2020-08-31T03:41:55.858</Modified>
+      <Modified>2020-08-31T04:36:48.764</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-31T03:19:15.053</Modified>
+      <Modified>2020-08-31T05:16:02.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-31T03:44:04.115</Modified>
+      <Modified>2020-08-31T05:16:02.143</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-31T03:07:08.540</Modified>
+      <Modified>2020-08-31T05:16:02.391</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\minht\source\repos\PaperProject\bin\x86\Debug\Core\PaperProject.exe">
+    <AppxPackagedFile Include="C:\Users\minht\source\repos\Thang-1996\SEM3\PaperProject\bin\x86\Debug\Core\PaperProject.exe">
       <PackagePath>PaperProject.exe</PackagePath>
-      <Modified>2020-08-31T03:44:04.833</Modified>
+      <Modified>2020-08-31T05:16:03.411</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

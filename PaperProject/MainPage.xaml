@@ -10,14 +10,54 @@
     Loaded="Page_Loaded">
 
     <StackPanel>
-        <StackPanel.Background>
-            <ImageBrush ImageSource="https://www.pngmart.com/files/7/IPhone-PNG-Picture.png" Stretch="None"/>
-        </StackPanel.Background>
+        <SplitView Name="MySplitView"
+                   Grid.Row="1"
+                   DisplayMode="CompactOverlay"
+                   OpenPaneLength="150"
+                   CompactPaneLength="45">
+            <SplitView.Pane>
+                <ListBox SelectionMode="Single">
+
+                    <ListBoxItem Name="Financial">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock
+                                Text="&#xE80F;"
+                                FontFamily="Segoe MDL2 Assets"
+                                FontSize="20"/>
+                            <TextBlock Text="Financial"
+                                       FontSize="18"
+                                       Margin="20,0,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+                    <ListBoxItem Name="Food">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="&#xE1CE;"
+                                                FontFamily="Segoe MDL2 Assets"
+                                                FontSize="20"/>
+                            <TextBlock Text="Food"
+                                                FontSize="18"
+                                                Margin="20,0,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+                </ListBox>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <GridView Name="NewsItemGrid"
+                         
+                          HorizontalAlignment="Stretch"
+                          Margin="10,0,0,0">
+
+                </GridView>
+
+            </SplitView.Content>
+        </SplitView>
         <StackPanel VerticalAlignment="Center">
             <TextBlock x:Name="DateResult" FontSize="10" Foreground="Gray" HorizontalAlignment="Center" Padding="0" Margin="0,160,220,20"/>
             <TextBlock x:Name="TitleResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="50,0,0,10" Width="400" TextWrapping="Wrap"/>
             <Image x:Name="ImageResult" Width="370" Height="400" HorizontalAlignment="Center" Margin="20,-90,-0,-90"/>
             <TextBlock Name="ContentResult1" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,10,0,0" Width="380" TextWrapping="Wrap"/>
+            <Button HorizontalAlignment="Center" Margin="0,20,0,10" Click="Add_Page">Add to bookmark</Button>
         </StackPanel>
+    
     </StackPanel>
 </Page>
