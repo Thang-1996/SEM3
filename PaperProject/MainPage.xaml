@@ -9,32 +9,55 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     Loaded="Page_Loaded">
 
-    <StackPanel>
+    <Grid Background="{ThemeResource AppBarBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <RelativePanel>
+            <Button Name="HamburgerButton"
+                    RelativePanel.AlignLeftWithPanel="True"
+                    FontFamily="Segoe MDL2 Assets"
+                    Content="&#xE700;"
+                    FontSize="20"
+                    Width="45"
+                    Height="45"
+                    HorizontalAlignment="Center"
+                   Click="HamburgerButton_Click"
+                   />
+            <TextBlock Name="TitleTextBlock"
+                       RelativePanel.RightOf="HamburgerButton"
+                       FontSize="18"
+                       FontWeight="Bold"
+                       Margin="20,0,0,0"/>
+        </RelativePanel>
         <SplitView Name="MySplitView"
                    Grid.Row="1"
                    DisplayMode="CompactOverlay"
                    OpenPaneLength="150"
                    CompactPaneLength="45">
             <SplitView.Pane>
-                <ListBox SelectionMode="Single">
-
-                    <ListBoxItem Name="Financial">
+                <ListBox SelectionMode="Single"
+                        SelectionChanged="ListBox_SelectionChanged">
+                    <ListBoxItem Name="Home">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock
                                 Text="&#xE80F;"
                                 FontFamily="Segoe MDL2 Assets"
                                 FontSize="20"/>
-                            <TextBlock Text="Financial"
+                            <TextBlock Text="Home"
                                        FontSize="18"
-                                       Margin="20,0,0,0"/>
+                                       Margin="20,0,0,0"
+                                       
+                                       />
                         </StackPanel>
                     </ListBoxItem>
-                    <ListBoxItem Name="Food">
+                    <ListBoxItem Name="Bookmark">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="&#xE1CE;"
                                                 FontFamily="Segoe MDL2 Assets"
                                                 FontSize="20"/>
-                            <TextBlock Text="Food"
+                            <TextBlock Text="Bookmark"
                                                 FontSize="18"
                                                 Margin="20,0,0,0"/>
                         </StackPanel>
@@ -42,22 +65,17 @@
                 </ListBox>
             </SplitView.Pane>
             <SplitView.Content>
-                <GridView Name="NewsItemGrid"
-                         
-                          HorizontalAlignment="Stretch"
-                          Margin="10,0,0,0">
-
-                </GridView>
-
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock x:Name="DateResult" FontSize="10" Foreground="Gray" HorizontalAlignment="Center" Padding="0" Margin="0,160,220,20"/>
+                    <TextBlock x:Name="TitleResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="50,0,0,10" Width="400" TextWrapping="Wrap"/>
+                    <Image x:Name="ImageResult" Width="370" Height="400" HorizontalAlignment="Center" Margin="20,-90,-0,-90"/>
+                    <TextBlock Name="ContentResult1" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,10,0,0" Width="380" TextWrapping="Wrap"/>
+                    <Button x:Name="Button"  HorizontalAlignment="Center" Margin="0,20,0,10" Click="Add_Page">Add BookMark</Button>
+                    <TextBlock x:Name="LinkBookMark" FontSize="10" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="0,0,20,20"></TextBlock>
+                    <Button x:Name="Button2" Content="showBookMark" HorizontalAlignment="Center" Margin="0,20,0,0  " Click="BookMark_Click"></Button>
+                </StackPanel>
             </SplitView.Content>
         </SplitView>
-        <StackPanel VerticalAlignment="Center">
-            <TextBlock x:Name="DateResult" FontSize="10" Foreground="Gray" HorizontalAlignment="Center" Padding="0" Margin="0,160,220,20"/>
-            <TextBlock x:Name="TitleResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="50,0,0,10" Width="400" TextWrapping="Wrap"/>
-            <Image x:Name="ImageResult" Width="370" Height="400" HorizontalAlignment="Center" Margin="20,-90,-0,-90"/>
-            <TextBlock Name="ContentResult1" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,10,0,0" Width="380" TextWrapping="Wrap"/>
-            <Button HorizontalAlignment="Center" Margin="0,20,0,10" Click="Add_Page">Add to bookmark</Button>
-        </StackPanel>
-    
-    </StackPanel>
+
+    </Grid>
 </Page>

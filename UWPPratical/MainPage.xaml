@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
+ 
     >
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -18,6 +19,10 @@
 
         <Button x:Name="searchcontact" Content="Search Contact"
             VerticalAlignment="Top" Margin="530,435,0,0" Click="Search_Contact" Width="120"/>
+        <Button x:Name="deleteContact" Content="Delete Contact"
+                VerticalAlignment="Top" Margin="670,435,0,0" Click="DeleteContact" Width="120"/>
+        <Button x:Name="updateContact" Content="Update Contact"
+                VerticalAlignment="Top" Margin="800,435,0,0" Click="UpdateContact" Width="120"/>
 
         <TextBlock HorizontalAlignment="Left"
                    TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"

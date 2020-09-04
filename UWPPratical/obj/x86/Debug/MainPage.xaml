@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
+ 
     >
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -18,12 +19,16 @@
 
         <Button x:ConnectionId='3' x:Name="searchcontact" Content="Search Contact"
             VerticalAlignment="Top" Margin="530,435,0,0"                        Width="120"/>
+        <Button x:ConnectionId='4' x:Name="deleteContact" Content="Delete Contact"
+                VerticalAlignment="Top" Margin="670,435,0,0"                       Width="120"/>
+        <Button x:ConnectionId='5' x:Name="updateContact" Content="Update Contact"
+                VerticalAlignment="Top" Margin="800,435,0,0"                       Width="120"/>
 
         <TextBlock HorizontalAlignment="Left"
                    TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"
                    Margin="290,204,0,0" Width="52"/>
 
-        <TextBox x:ConnectionId='4' x:Name="Name" HorizontalAlignment="Left" TextWrapping="Wrap"
+        <TextBox x:ConnectionId='6' x:Name="Name" HorizontalAlignment="Left" TextWrapping="Wrap"
                    VerticalAlignment="Top" Margin="291,252,0,0" Width="370" Height="43" RenderTransformOrigin="0.5,0.5">
             <TextBox.RenderTransform>
                 <CompositeTransform ScaleY="1"/>
@@ -38,11 +43,11 @@
             </TextBlock.RenderTransform>
         </TextBlock>
 
-        <TextBox x:ConnectionId='5' x:Name="Phone" HorizontalAlignment="Left"
+        <TextBox x:ConnectionId='7' x:Name="Phone" HorizontalAlignment="Left"
                    TextWrapping="Wrap"
                    VerticalAlignment="Top" Margin="291,360,0,0"
                    Width="370" Height="38"/>
-        <TextBlock x:ConnectionId='6' x:Name="Result" HorizontalAlignment="Left"
+        <TextBlock x:ConnectionId='8' x:Name="Result" HorizontalAlignment="Left"
                    Margin="300,500,0,0" TextWrapping="Wrap"
                    VerticalAlignment="Top" Width="324" Height="131"/>
     </Grid>

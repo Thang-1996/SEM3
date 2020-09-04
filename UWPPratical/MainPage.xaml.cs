@@ -8,6 +8,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Globalization.PhoneNumberFormatting;
+using Windows.UI.Notifications;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -59,7 +60,7 @@ namespace UWPPratical
             }
         }
 
-        private void Show_Contact(object sender, RoutedEventArgs e)
+        public void Show_Contact(object sender, RoutedEventArgs e)
         {
             var querry2 = connect.Table<Contact>();
             string Name = "";
@@ -85,6 +86,28 @@ namespace UWPPratical
                 PhoneNumber1 = PhoneNumber1 + " " + q.phonenumber;
             }
             Result.Text = "Name: " + Name1 + "\nPhoneNumber: " + PhoneNumber1;
+        }
+        private void DeleteContact(object sender, RoutedEventArgs e)
+        {
+            connect.Execute("DELETE FROM Contact");
+        }
+       
+   
+        private void UpdateContact(object sender, RoutedEventArgs e)
+        {
+
+            string NameValue = Name.Text;
+            string PhoneNumberValue = Phone.Text;
+            var updateContact = connect.Table<Contact>().Where(x => x.name == NameValue).FirstOrDefault();
+            if (updateContact != null)
+            {
+                updateContact.name = NameValue;
+                updateContact.phonenumber = PhoneNumberValue;
+                connect.RunInTransaction(() =>
+                {
+                    connect.Update(updateContact);
+                });
+            }
         }
     }
 }

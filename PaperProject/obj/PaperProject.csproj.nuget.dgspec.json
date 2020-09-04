@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minht\\source\\repos\\Thang-1996\\SEM3\\PaperProject\\PaperProject.csproj": {}
+    "E:\\demo\\PaperProject\\PaperProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minht\\source\\repos\\Thang-1996\\SEM3\\PaperProject\\PaperProject.csproj": {
+    "E:\\demo\\PaperProject\\PaperProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minht\\source\\repos\\Thang-1996\\SEM3\\PaperProject\\PaperProject.csproj",
+        "projectUniqueName": "E:\\demo\\PaperProject\\PaperProject.csproj",
         "projectName": "PaperProject",
-        "projectPath": "C:\\Users\\minht\\source\\repos\\Thang-1996\\SEM3\\PaperProject\\PaperProject.csproj",
+        "projectPath": "E:\\demo\\PaperProject\\PaperProject.csproj",
         "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minht\\source\\repos\\Thang-1996\\SEM3\\PaperProject\\obj\\",
+        "outputPath": "E:\\demo\\PaperProject\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -22,20 +22,20 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "uap10.0.17763"
+          "uap10.0.10586"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "uap10.0.17763": {
+          "uap10.0.10586": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "uap10.0.17763": {
+        "uap10.0.10586": {
           "dependencies": {
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
@@ -45,12 +45,7 @@
               "target": "Package",
               "version": "[3.1.1, )"
             }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
+          }
         }
       },
       "runtimes": {
