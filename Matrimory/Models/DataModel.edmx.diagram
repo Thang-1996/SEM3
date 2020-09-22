@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b6294248aac949b2863d063289ee4888" Name="Diagram1">
+        <EntityTypeShape EntityType="MatrimoryModel.Bill" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatrimoryModel.Employee" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatrimoryModel.FriendList" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatrimoryModel.Member" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatrimoryModel.PaymentType" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatrimoryModel.Role" Width="1.5" PointX="7.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MatrimoryModel.Service" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="MatrimoryModel.Bill_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="MatrimoryModel.Bill_fk1" ManuallyRouted="false" />
+        <AssociationConnector Association="MatrimoryModel.Employee_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="MatrimoryModel.FriendList_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="MatrimoryModel.Member_fk0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
