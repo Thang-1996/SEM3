@@ -1,0 +1,109 @@
+﻿@*@model IEnumerable<ProjectsNhom.Models.Student>*@
+@model PagedList.IPagedList<ProjectsNhom.Models.Student>
+@using PagedList.Mvc;
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Student List</h2>
+<div class="col-lg-12 col-md-12" style="margin-bottom:50px;">
+    <div class="row">
+        @using (Html.BeginForm("Index", "Students", FormMethod.Get, new { @class = "d-none d-sm-inline-block form-inline mr-auto ml-md-6 my-2 my-md-0 mw-100 navbar-search col-lg-4 col-md-4" }))
+        {
+
+
+            <div class="input-group">
+                @Html.TextBox("Search", ViewBag.CurrentFilter as string, new { @class = "form-control bg-light border-1 small" })
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">
+                        <i class="fas fa-search fa-sm"></i>
+                    </button>
+                </div>
+
+            </div>
+
+
+        }
+        <div class="col-lg-2 col-md-2"></div>
+        <div class="col-lg-6 col-md-6">
+            <a href="/Students/Create" style="float:right" class="btn btn-primary">Create</a>
+        </div>
+    </div>
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Student Name", "Index", new
+            {
+                sortOrder = ViewBag.NameSortParm,
+
+           currentFilter = ViewBag.CurrentFilter
+       });
+        </th>
+        <th>
+            Age
+        </th>
+        <th>
+            Phone
+        </th>
+        <th>
+            Sex
+        </th>
+        <th>
+            @Html.ActionLink("Enrollment Date", "Index", new
+            {
+                sortOrder = ViewBag.DateSortParm,
+        currentFilter = ViewBag.CurrentFilter
+       });
+
+        </th>
+        <th>
+            ClassName
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sex)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EnrollmentDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Class.ClassName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+    }
+
+</table>
+<div class="row">
+        <div class="col-sm-12 col-md-10">
+                Current @(Model.PageCount<Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount Page
+            </div>
+        <div class="col-sm-12 col-md-2">
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter,@class="btn btn-sm btn-primary"}))
+
+                </div>
+    </div>
+
+
+

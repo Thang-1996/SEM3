@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using CodeFirst_WebApplication.DAL;
 using CodeFirst_WebApplication.Models;
+using PagedList;
 
 namespace CodeFirst_WebApplication.Controllers
 {
@@ -16,9 +18,57 @@ namespace CodeFirst_WebApplication.Controllers
         private FptAptechEduContext db = new FptAptechEduContext();
 
         // GET: Students
-        public ActionResult Index()
+        // sử dụng viewResult cho action result để render view engine
+
+        public ViewResult Index(string sortOrder, string search,
+            string currentFilter,int? page) // tạo biến để sort và search // current filter là lưu lại thông tin lọc của page hiện tại còn int?page là đang xem ở page bao nhiêu
+
         {
-            return View(db.Students.ToList());
+            ViewBag.CurrentSort = sortOrder; // gán sort hiện tại bằng sortOrder
+            /* List<Student> students = db.Students.ToList();
+             // sử dụng querry
+             String query = "SELECT * FROM student";
+             return View(students);*/
+            // sử dụng viewbag là 1 đối tượng có sẵn để giao tiếp với view
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
+
+            // querry
+            if(search != null)
+            {
+                page = 1; // nếu search có giá trị trả về page = 1
+            }
+            else
+            {
+                search = currentFilter;
+            }
+            ViewBag.CurrentFilter = search;
+            var students = from s in db.Students select s;
+            if(!String.IsNullOrEmpty(search)) // nếu search string có thì in ra hoặc không thì không in ra
+            {
+                students = students.Where(s => s.LastName.Contains(search) || s.FirstMidName.Contains(search) || s.Address.Contains(search)); // contains là để check xem lastname hoặc firstName có chứa search string ở trên 
+
+            }
+
+            switch (sortOrder)
+            {
+                case  "name desc" :
+                    students = students.OrderByDescending(s => s.LastName);
+                    break;
+                case  "date_desc" :
+                    students = students.OrderByDescending(s => s.EnrollmentDate);
+                    break;
+                case "Date":
+                    students = students.OrderBy(s => s.EnrollmentDate);
+                    break;
+                default:
+                    students = students.OrderBy(s => s.LastName);
+                    break;
+            }
+            int pageSize = 3; //  khai báo số lượng record trên 1 page
+            int pageNumber = ( page ?? 1 ); // page number là page đang chọn nếu không chọn sẽ = 1
+            return View(students.ToPagedList(pageNumber,pageSize)); // sử dụng topagedlist() để sử dụng phân trang 
+         
         }
 
         // GET: Students/Details/5
@@ -47,7 +97,7 @@ namespace CodeFirst_WebApplication.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,LastName,FirstMidName,EnrollmentDate")] Student student)
+        public ActionResult Create([Bind(Include = "ID,LastName,FirstMidName,EnrollmentDate,Address")] Student student)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +129,7 @@ namespace CodeFirst_WebApplication.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,LastName,FirstMidName,EnrollmentDate")] Student student)
+        public ActionResult Edit([Bind(Include = "ID,LastName,FirstMidName,EnrollmentDate,Address")] Student student)
         {
             if (ModelState.IsValid)
             {

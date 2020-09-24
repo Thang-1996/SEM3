@@ -1,0 +1,76 @@
+﻿@model ProjectsNhom.Models.Class
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Class</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ClassName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClassName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Population)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Population)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>StudentName</th>
+                    <th>Sex</th>
+                    <th>EnrollmentDate</th>
+
+                </tr>
+                @foreach (var item in Model.Students)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.StudentName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Sex)</td>
+                        <td>@Html.DisplayFor(modelItem => item.EnrollmentDate)</td>
+
+                    </tr>
+                }
+            </table>
+            <table class="table">
+                <tr>
+                    <th>Instructor Name</th>
+                    <th>Course Name</th>
+                </tr>
+                @foreach (var item in Model.Instructors)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.InstructorName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Course.CourseName)</td>
+                    </tr>
+                }
+            </table>
+
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
