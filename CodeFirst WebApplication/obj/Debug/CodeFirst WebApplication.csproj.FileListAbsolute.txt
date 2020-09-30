@@ -83,8 +83,10 @@ C:\Users\minht\source\repos\Thang-1996\SEM3\CodeFirst WebApplication\obj\Debug\C
 C:\Users\minht\source\repos\Thang-1996\SEM3\CodeFirst WebApplication\obj\Debug\CodeFirst_WebApplication.Migrations.InitialCreate.resources
 C:\Users\minht\source\repos\Thang-1996\SEM3\CodeFirst WebApplication\obj\Debug\CodeFirst WebApplication.csproj.GenerateResource.cache
 C:\Users\minht\source\repos\Thang-1996\SEM3\CodeFirst WebApplication\obj\Debug\CodeFirst_WebApplication.Migrations._09212020_newMG.resources
-C:\Users\minht\source\repos\Thang-1996\SEM3\CodeFirst WebApplication\obj\Debug\CodeFirst WebApplication.csprojAssemblyReference.cache
 C:\Users\minht\source\repos\Thang-1996\SEM3\CodeFirst WebApplication\bin\PagedList.dll
 C:\Users\minht\source\repos\Thang-1996\SEM3\CodeFirst WebApplication\bin\PagedList.Mvc.dll
 C:\Users\minht\source\repos\Thang-1996\SEM3\CodeFirst WebApplication\bin\PagedList.xml
 C:\Users\minht\source\repos\Thang-1996\SEM3\CodeFirst WebApplication\bin\PagedList.Mvc.xml
+C:\Users\minht\source\repos\Thang-1996\SEM3\CodeFirst WebApplication\obj\Debug\CodeFirst WebApplication.csprojAssemblyReference.cache
+C:\Users\minht\source\repos\Thang-1996\SEM3\CodeFirst WebApplication\obj\Debug\CodeFirst_WebApplication.Migrations.NewColFistName.resources
+C:\Users\minht\source\repos\Thang-1996\SEM3\CodeFirst WebApplication\obj\Debug\CodeFirst_WebApplication.Migrations.NewDesignModel.resources

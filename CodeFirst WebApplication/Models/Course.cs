@@ -12,6 +12,7 @@ namespace CodeFirst_WebApplication.Models
         public string Title { get; set; }
         public int Credits { get; set; }
         public virtual ICollection<Enrollment> Enrollments { get; set; } // sử dụng collection khi có khóa ngoại ở bảng Enrollment sẽ tạo ra 1 collection
+        public virtual ICollection<Instructor> Instructors { get; set; }
         
     }
 }

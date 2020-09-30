@@ -109,3 +109,4 @@ C:\Users\minht\source\repos\Thang-1996\SEM3\ProjectsNhom\bin\PagedList.dll
 C:\Users\minht\source\repos\Thang-1996\SEM3\ProjectsNhom\bin\PagedList.Mvc.dll
 C:\Users\minht\source\repos\Thang-1996\SEM3\ProjectsNhom\bin\PagedList.xml
 C:\Users\minht\source\repos\Thang-1996\SEM3\ProjectsNhom\bin\PagedList.Mvc.xml
+C:\Users\minht\source\repos\Thang-1996\SEM3\ProjectsNhom\obj\Debug\ProjectsNhom.csprojAssemblyReference.cache

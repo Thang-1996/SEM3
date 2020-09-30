@@ -1,0 +1,76 @@
+﻿@model IEnumerable<AlluringDecors.Models.Contract>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractStartDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractEndDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractSigningDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Project.ProjectName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractStartDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractEndDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractSigningDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Project.ProjectName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

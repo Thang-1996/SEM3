@@ -147,9 +147,22 @@
     <Compile Include="Migrations\202009210447326_09212020_newMG.designer.cs">
       <DependentUpon>202009210447326_09212020_newMG.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009250224051_NewColFistName.cs" />
+    <Compile Include="Migrations\202009250224051_NewColFistName.designer.cs">
+      <DependentUpon>202009250224051_NewColFistName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202009250336020_NewDesignModel.cs" />
+    <Compile Include="Migrations\202009250336020_NewDesignModel.designer.cs">
+      <DependentUpon>202009250336020_NewDesignModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Enrollment.cs" />
+    <Compile Include="Models\Instructor.cs" />
+    <Compile Include="Models\Office.cs" />
+    <Compile Include="Models\Schedule.cs" />
+    <Compile Include="Models\Semester.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -218,6 +231,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009210447326_09212020_newMG.resx">
       <DependentUpon>202009210447326_09212020_newMG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009250224051_NewColFistName.resx">
+      <DependentUpon>202009250224051_NewColFistName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009250336020_NewDesignModel.resx">
+      <DependentUpon>202009250336020_NewDesignModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
