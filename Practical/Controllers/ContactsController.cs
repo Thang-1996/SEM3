@@ -22,7 +22,7 @@ namespace Practical.Controllers
             ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             if (search != null)
             {
-                page = 1; // nếu search có giá trị trả về page = 1
+                page = 1; 
             }
             else
             {
@@ -30,9 +30,9 @@ namespace Practical.Controllers
             }
             ViewBag.CurrentFilter = search;
             var contacts = from s in db.Contacts select s;
-            if (!String.IsNullOrEmpty(search)) // nếu search string có thì in ra hoặc không thì không in ra
+            if (!String.IsNullOrEmpty(search)) 
             {
-                contacts = contacts.Where(s => s.ContactName.Contains(search)); // contains là để check xem lastname hoặc firstName có chứa search string ở trên 
+                contacts = contacts.Where(s => s.ContactName.Contains(search));
 
             }
             switch (sortOrder)
@@ -45,11 +45,10 @@ namespace Practical.Controllers
                     contacts = contacts.OrderBy(s => s.ContactName);
                     break;
             }
-            int pageSize = 3; //  khai báo số lượng record trên 1 page
-            int pageNumber = (page ?? 1); // page number là page đang chọn nếu không chọn sẽ = 1
+            int pageSize = 3; 
+            int pageNumber = (page ?? 1); 
             return View(contacts.ToPagedList(pageNumber, pageSize));
-            /*      var students = db.Students.Include(s => s.Class);*/
-            /*   return View(students.ToList());*/
+         
         }
 
         // GET: Contacts/Details/5
